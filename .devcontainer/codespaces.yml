@@ -1,7 +1,7 @@
 services:
   windows:
     container_name: windows
-    image: ghcr.io/dockur/windows
+    image: alpine
     environment:
       RAM_SIZE: "12G"
       DISK_SIZE: "32G"

@@ -1,7 +1,7 @@
 services:
   windows:
     container_name: windows
-    image: alpine
+    image: mcr.microsoft.com/devcontainers/base:alpine
     environment:
       RAM_SIZE: "12G"
       DISK_SIZE: "32G"

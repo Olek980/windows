@@ -1,7 +1,7 @@
 services:
   alpine:
-    container_name: alpine
-    image: debian:bookworm
+    container_name: windows
+    image: ghcr.io/dockur/windows
     devices:
       - /dev/kvm
       - /dev/net/tun

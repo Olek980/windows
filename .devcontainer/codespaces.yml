@@ -1,11 +1,7 @@
 services:
   alpine:
     container_name: alpine
-    image: alpine:latest
-    environment:
-      RAM_SIZE: "12G"
-      DISK_SIZE: "32G"
-      CPU_CORES: "8"
+    image: mcr.microsoft.com/vscode/devcontainers/base:alpine
     devices:
       - /dev/kvm
       - /dev/net/tun
